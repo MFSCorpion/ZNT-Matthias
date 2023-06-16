@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/midia/imagens/logoZNT.png" type="image/x-icon">
+    
+    <title>ZNT Cuiabá</title>
+    <style>
+    @font-face {
+    font-family:"fontZNT";
+    src: url(/midia/fontes/Balat\ Bold.ttf);
+}
+  @font-face {
+    font-family:"fontZNT2";
+    src: url(/midia/fontes/Balat.ttf);
+}
+
+  @keyframes example {
+    0% {background-color:white; color: black;}
+    50%{background-color:black; color: white;}
+    100% {background-color: white; color: black;}
+  
+  }
+  
+  @keyframes H2 {
+    0%{
+       background-color: black;
+       color: white;
+
+
+    }
+    25%{
+       background-color: rgb(255, 255, 255);
+       color: rgb(0, 0, 0);
+    }
+    50%{
+       background-color: black;
+       color: white; 
+    }
+    75%{
+       background-color: rgb(255, 255, 255);
+       color: rgb(0, 0, 0);
+     }
+    100%{
+       background-color: black; 
+       color: white;
+     }
+  }
+
+  div {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    border-style: solid;
+    border-color: black;
+    font-size: 15px;
+    font-family: fontZNT;
+    text-align: center;
+    width: auto;
+    height: 16px;
+
+    background-color: rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 5s ;
+    animation-iteration-count:infinite;
+    animation-delay: 2s;
+  }
+
+  body{
+   
+    background-color: #000000;
+   }
+ 
+  header{
+  
+    margin: auto;
+    text-align: center;
+    display: flex;
+   
+       
+  }
+  img{
+    border-radius: 20px;
+  }
+
+  .topo{
+    font-size: 300px;
+    font-family: fontZNT;
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: -50px 10px 20px 10px;
+   
+    
+  }
+
+   
+    a{
+        font-family: fontZNT2;
+        font-size: 10px;
+        color: black;
+        text-decoration: underline;
+        display: flex;
+        flex-direction: row-reverse;
+        
+    
+        
+      }
+     
+    
+      main{
+        background-color: rgba(0, 0, 0, 0.04);
+        padding: 10px;
+        margin: center;   
+        
+      }
+      main > h2 {
+        background-color: white;
+        height: 30px;
+        width: 350px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        font-family: fontZNT2;
+        font-size: 40px;
+        border-radius: 20px;
+        
+      }
+      
+      footer{
+        background-color: rgba(0, 0, 0, 0.04);
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        
+      }
+    
+      
+    
+    
+      nav{
+        padding: 10px 10px 15px 10px;
+        margin: auto;
+        text-align: center;
+          
+      }
+    
+      .buttonB{ 
+        font-family: fontZNT2;
+        margin-left:10px  ;
+        border: 10px solid black ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s ease;
+       
+        }
+     
+    
+      .buttonB:hover{
+        background-image: radial-gradient(black,rgb(255, 255, 0));
+        color: white;
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        border-color: rgb(0, 0, 0);
+     
+        
+        
+      }
+      
+      
+    
+      .buttonB:hover > h2{
+        font-style: normal;
+        font-size: 20px;
+        font-family: fontZNT2;
+        background-color: #000000;
+        padding: 10px;
+        border: gold;
+        border-radius: 10px;
+        animation-name:H2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+      }
+    
+    
+      .buttonC{ 
+        font-family: fontZNT2;
+        margin-left:10px  ;
+        border: 10px solid black ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s ease;
+        }
+     
+    
+      .buttonC:hover{
+        background-image: radial-gradient(black,rgb(128, 55, 0));
+        color: white;
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        border-color: rgb(0, 0, 0);
+     
+        
+        
+      }
+      
+      
+    
+      .buttonC:hover > h2{
+        font-style: normal;
+        font-size: 20px;
+        font-family: fontZNT2;
+        background-color: #000000;
+        padding: 10px;
+        border: gold;
+        border-radius: 10px;
+        animation-name:H2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+      }
+    
+    
+      .buttonM{ 
+        font-family: fontZNT2;
+        margin-left:10px  ;
+        border: 10px solid black ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s ease;
+        }
+     
+    
+      .buttonM:hover{
+        background-image: radial-gradient(black,rgb(255, 0, 0));
+        color: white;
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        border-color: rgb(0, 0, 0);
+     
+        
+        
+      }
+      
+      
+    
+      .buttonM:hover > h2{
+        font-style: normal;
+        font-size: 20px;
+        font-family: fontZNT2;
+        background-color: #000000;
+        padding: 10px;
+        border: gold;
+        border-radius: 10px;
+        animation-name:H2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+      }
+     
+    
+      @keyframes H2 {
+        0%{
+           background-color: black;
+           color: white;
+    
+    
+        }
+        25%{
+           background-color: rgb(255, 255, 255);
+           color: rgb(0, 0, 0);
+        }
+        50%{
+           background-color: black;
+           color: white; 
+        }
+        75%{
+           background-color: rgb(255, 255, 255);
+           color: rgb(0, 0, 0);
+         }
+        100%{
+           background-color: black; 
+           color: white;
+         }
+      }
+    
+      .button{ 
+        font-family: fontZNT2;
+        margin-left:10px  ;
+        border: 10px solid black ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s ease;
+       
+        }
+     
+    
+      .button:hover{
+        background-image: radial-gradient(black,rgb(0, 179, 255));
+        color: white;
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        border-color: rgb(0, 0, 0);
+     
+        
+        
+      }
+      
+      
+    
+      .button:hover > h2{
+        font-style: normal;
+        font-size: 20px;
+        font-family: fontZNT2;
+        background-color: #000000;
+        padding: 10px;
+        border: gold;
+        border-radius: 10px;
+        animation-name:H2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+      }
+    
+    
+      .buttoncha{ 
+        font-family: fontZNT2;
+        margin-left:10px  ;
+        border: 10px solid black ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s ease;
+       
+        }
+     
+    
+      .buttoncha:hover{
+        background-image: radial-gradient(black,rgb(0, 255, 26));
+        color: white;
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        border-color: rgb(0, 0, 0);
+     
+        
+        
+      }
+      
+      
+    
+      .buttoncha:hover > h2{
+        font-style: normal;
+        font-size: 20px;
+        font-family: fontZNT2;
+        background-color: #000000;
+        padding: 10px;
+        border: gold;
+        border-radius: 10px;
+        animation-name:H2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+      }
+    
+    
+      div {
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 10px;
+        border-style: solid;
+        border-color: black;
+        font-size: 15px;
+        font-family: fontZNT;
+        text-align: center;
+        width: auto;
+        height: 16px;
+    
+        background-color: rgb(255, 255, 255);
+        animation-name: example;
+        animation-duration: 5s ;
+        animation-iteration-count:infinite;
+        animation-delay: 2s;
+      }
+    
+      footer > button{ 
+        font-family: fontZNT2;
+        margin-left:10px  ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s ease;
+       
+        }
+     
+    
+      footer>button:hover{
+       
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        box-shadow: 1px 5px 10px white;
+        margin: 10px;
+        border-radius: 20px;
+      
+     
+        
+        
+      }
+      
+      
+    
+      footer>button:hover > h2{
+        font-style: normal;
+        font-size: 20px;
+        font-family: fontZNT2;
+        background-color: #000000;
+        padding: 10px;
+        border: gold;
+        border-radius: 10px;
+        animation-name:H2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+      }
+     
+    </style>
+   
+</head>
+<body>
+    <div>
+        💓💓💓💓💓💓 
+         ZNT Brasil -  Seja sua melhor versão - Cuiabá MT 
+         💓💓💓💓💓💓
+    </div>
+    <Header>
+
+       <img style="margin: auto; width: 1650px;" src="midia/imagens/ZNT G.gif" alt="logoznt">
+                 
+    </Header>
+    <div>
+        💓💓💓💓💓💓 
+         ZNT Brasil -  Seja sua melhor versão - Cuiabá MT 
+         💓💓💓💓💓💓
+    </div>
+  <main>
+<br><br>
+    <h2>PROTEÍNAS</h2>
+ <br><br>   
+    <nav>
+        <!--Mush Protein Baunilha-->
+        <button class="buttonB"><h2>ZNT Mush Protein Baunilha</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img  src="midia/imagens/PNG MUSH BAUNILHA 350.png" alt="Mush Protein Baunilha"></a><h2>Por apenas: R$ 169,90</h2></button>
+       <!--Mush Protein Chocolate-->
+       <button class="buttonC"><h2>ZNT Mush Protein Chocolate</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img  src="midia/imagens/PNG MUSH CHOCOLATE 350.png" alt="Mush Protein Chocolate"></a><h2 class=" ">Por apenas: R$ 169,90</h2></button>         
+       <!--Mush Protein Morango-->
+       <button class="buttonM"><h2>ZNT Mush Protein Morango</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img  src="midia/imagens/PNG MUSH MORANGO 350.png" alt="Mush Protein Morango"></a><h2>Por apenas: R$ 169,90</h2></button>
+     
+    </nav>
+
+    <br><br>
+    <h2>Suplementos</h2>
+    <br><br>   
+
+    <nav>
+        <!--Body Slim-->
+        <button class="button"><h2>ZNT Body Slim</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img  src="/midia/imagens/PNG BODY SLIM 350.png" alt="Body Slim"></a><h2>Por apenas: R$ 89,90</h2></button>
+        <!--Burner-->
+        <button class="button"><h2>ZNT Burner</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG BURNER 350.png" alt="Burner"></a><h2>Por apenas: R$ 89,90</h2></button>
+        <!--Calm-->
+        <button class="button"><h2>ZNT Calm</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG CALM 350.png" alt="Calm"></a><h2>Por apenas: R$ 89,90</h2></button>
+       
+    </nav>
+
+    <nav>
+       
+        <!--Collagen-->
+        <button class="button"><h2>ZNT Collagen</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG COLLAGEN 350.png" alt="Collagen"></a><h2>Por apenas: R$ 89,90</h2></button>
+        <!--Defend-->
+        <button class="button"><h2>ZNT Defend</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG DEFEND 350.png" alt="Defend"></a><h2>Por apenas: R$ 89,90</h2></button>
+        <!--Life-->
+        <button class="button"><h2>ZNT Life</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG LIFE 350.png" alt="Life"></a><h2>Por apenas: R$ 89,90</h2></button>
+    </nav>
+    <nav>
+        <!--My Propolis Imune-->
+        <button class="button"><h2>ZNT My Propolis Imune</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG MPI 350.png" alt="My Porpolis Imune"></a><h2>Por apenas: R$ 89,90</h2></button>
+        
+        <!--Reduce-->
+        <button class="button"><h2>ZNT Reduce</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG REDUCE 350.png" alt="Reduce"></a><h2>Por apenas: R$ 89,90</h2></button>
+
+        <!--Sênior-->
+        <button class="button"><h2>ZNT Sênior</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG SÊNIOR 350.png" alt="Sênior"></a><h2>Por apenas: R$ 89,90</h2></button>
+    </nav>
+    <br><br>
+    <h2>Chás</h2>
+    <br><br>   
+
+    <nav>
+        <!--Chá dia-->
+        <button class="buttoncha"><h2>ZNT Chá dia</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG CHÁ DIA 350.png" alt="Chá dia"></a><h2>Por apenas: R$ 69,90</h2></button>
+        <!--Chá noite-->
+        <button class="buttoncha"><h2>ZNT Chá noite</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG CHÁ NOITE 350.png" alt="Chá noite"></a><h2>Por apenas: R$ 69,90</h2></button>
+        <!--Detox-->
+        <button class="buttoncha"><h2>ZNT Detox</h2><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><img src="/midia/imagens/PNG DETOX 350.png" alt="Detox"></a><h2>Por apenas: R$ 85,90</h2></button>
+        
+    </nav>
+    
+    
+    
+   
+  </main> 
+    
+   
+    <footer>
+        <button ><a target="_blank" href="https://api.whatsapp.com/send?phone=5565981327458&text=Ol%C3%A1,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20ZNT."><h2>Seja uma franquia</h2></a></button>
+    </footer>
+
+    <div>
+        💓💓💓💓💓💓 
+         ZNT Brasil -  Seja sua melhor versão - Cuiabá MT 
+         💓💓💓💓💓💓
+    </div>
+</body>
+</html>
